@@ -24,4 +24,8 @@ path = "tests/test.rs"
 
 [dependencies]
 r2d2 = "0.6"
-redis = "0.5"
+
+[dependencies.redis]
+version = "0.5"
+git = "https://github.com/mitsuhiko/redis-rs"
+rev = "3c960e0a9ff4241ac41595a67379d8ed91fa7a9f"
